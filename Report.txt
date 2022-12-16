@@ -1,0 +1,27 @@
+For this final project, we were to code a rust program that analyzes a graph or graphs. But different from the generic pictorial representation of data or values, this is a collection of nodes connected by edges. The nodes can also be called vertices. The edges can be directed or undirected.
+
+In the beginning, I proposed trying to do a stock prediction analysis for my project proposal, but the dataset wasn’t really good for that. Instead of continuing with that project, I decided to fall back on a recommended analysis. This was to compute the average distance between social graphs of friends. For the data, I used Stanford’s social networks dataset. This dataset was specifically about Facebook’s ‘circles’ (or ‘friends lists’). It is stated that the data was collected from survey participants using a Facebook app.
+
+Coding this program was a trouble for me. I tried many different ways of coding but didn’t successfully come up with a good program. I took a lot of time looking through the rust book and hopefully that is shown in my code. I have also done a lot of research, so I will attach the links to them.
+
+The files include nodeId.edges, nodeId.circles, nodeId.feat, nodeId.egofeat, and nodeId.featnames.
+
+Some important statistics from the data set include:
+Nodes: 4039
+Edges: 88234
+Average clustering coefficient: 0.6055
+Number of triangles: 1612010
+Diameter: 8
+
+Overall this project was interesting. I haven’t had much experience coding something like this. I think that I can improve a lot more by doing more projects like this.
+
+Resources:
+Professor Kontothanassis Lectures
+Dataset - https://snap.stanford.edu/data/ego-Facebook.html
+Rust Book - https://doc.rust-lang.org/book/
+MIT’s Hash Maps - https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/second-edition/ch08-03-hash-maps.html
+MIT’s Result Type - https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/std/result/index.html
+Brandeis’s Formatting - https://www.cs.brandeis.edu/~cs146a/rust/rustbyexample-02-21-2015/fmt.html
+Trim Function - https://www.educative.io/answers/what-is-the-trim-function-in-rust
+Map Function - https://doc.rust-lang.org/std/iter/struct.Map.html
+Read Line - https://stackoverflow.com/questions/45882329/read-large-files-line-by-line-in-rust
